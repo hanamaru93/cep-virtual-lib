@@ -1,0 +1,28 @@
+{
+    "name": "felipe/cep-virtual-lib",
+    "description": "Busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Felipe Barbosa Belarmino dos Santos",
+        "email": "felipe93ti@gmail.com"
+    }],
+    "require": {
+
+        "php": ">=7.2.0"
+
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+
+        },
+        "psr-4": {
+
+            "Fl\\CepVirtualLib\\": "src/"
+
+        }
+
+
+    }
+}
